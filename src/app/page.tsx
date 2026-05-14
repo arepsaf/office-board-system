@@ -233,11 +233,21 @@ export default function Home() {
             ? "#7c3aed"
             : event.category === "EVENT"
               ? "#2563eb"
-              : event.category === "AL"
+              : event.category === "ANNUAL LEAVE"
                 ? "#dc2626"
-                : event.category === "PUBLIC HOLIDAY"
-                  ? "#ef4444"
-                  : "#0f766e",
+                : event.category === "3H"
+                  ? "#dc2626"
+                  : event.category === "PUBLIC HOLIDAY"
+                    ? "#ef4444"
+                    : event.category === "HARI RAYA"
+                      ? "#16a34a"
+                      : event.category === "GAWAI"
+                        ? "#f59e0b"
+                        : event.category === "KRISMAS"
+                          ? "#dc2626"
+                          : event.category === "NEW YEAR"
+                            ? "#0ea5e9"
+                            : "#0f766e",
       borderColor: "transparent",
     };
   });
