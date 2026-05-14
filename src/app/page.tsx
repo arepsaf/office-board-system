@@ -275,12 +275,24 @@ export default function Home() {
             value={category}
             onChange={(e) => setCategory(e.target.value)}
           >
-            <option>EVENT</option>
-            <option>SPORT</option>
-            <option>AL</option>
-            <option>PUBLIC HOLIDAY</option>
             <option>TRAINING</option>
+            <option>ANNUAL LEAVE</option>
+            <option>EVENT</option>
+            <option>GAJI</option>
+            <option>SPORT</option>
             <option>MEETING</option>
+            <option>BOOTH</option>
+            <option>REMINDER</option>
+            <option>PUBLIC HOLIDAY</option>
+            <option>HARI RAYA</option>
+            <option>GAWAI</option>
+            <option>KRISMAS</option>
+            <option>NEW YEAR</option>
+            <option>3H</option>
+            <option>SEWAAN</option>
+            <option>JEMPUTAN</option>
+            <option>LAWATAN</option>
+            <option>PROGRAM</option>
           </select>
 
           <input
