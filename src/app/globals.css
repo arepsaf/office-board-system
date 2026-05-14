@@ -1,3 +1,10 @@
+@import "tailwindcss";
+
+body {
+  background: #f3f4f6;
+  color: #111827;
+}
+
 /* FULLCALENDAR CLEAN UI */
 
 .fc {
@@ -16,6 +23,7 @@
   border: none !important;
   box-shadow: none !important;
   font-weight: 600 !important;
+  border-radius: 8px !important;
 }
 
 .fc-button:hover {
@@ -36,7 +44,6 @@
 .fc-col-header-cell-cushion {
   color: #111827 !important;
   font-weight: 700;
-  font-size: 14px;
 }
 
 .fc-daygrid-day-frame {
